@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!--Required meta tags always come first-->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <!--Bootstrap CSS-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+      <!--Additional CSS must be placed after Bootstrap CSS-->
+     
+   
+      
+      
+      <link rel="stylesheet" href="css/responsive.css"/>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+      <title>Travis Burns - Full Stack Web Development</title>
+   </head>
+   <body>
+      <section data-aos="fade-up" class="project-area">
+         <div class="container">
+            <div class="project-title pb-5">
+               <h1 class="text-uppercase title-h1">
+               <h1 class="text-uppercase title-h1" id="portfolio">Project's</h1>
+            </div>
+            <div class="button-group">
+               <button type="button" class="active" id="btn1" data-filter="*">All</button>
+               <button type="button" data-filter=".frontend">Front End</button>
+               <button type="button" data-filter=".webapps">Web Apps</button>
+               <button type="button" data-filter= ".uxdesign">UX Design</button>
+               <button type="button" data-filter= ".upcoming">Upcoming</button>
+            </div>
+            <div class="row grid">
+               <!--Weather app-->
+               <div class="col-lg-4 col-md-6 col-sm-12 element-item webapps">
+                  <div class="our-project" id="project-outer">
+                     <div class="img">
+                        <img src="img/weather.jpg" height="200px" width="200px" alt="portfolio-1">
+                     </div>
+                     <div class="title py-4">
+                        <h4 class="text-uppercase">Weatherapp</h4>
+                        <span class="text uppercase">Created with html, <br> css, javascript, and API</span>
+                     </div>
+                     <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-primary ml-4" data-bs-toggle="modal" data-bs-target="#Modal0">
+                     More Info
+                     </button>
+                  </div>
+               </div>
+               <!-- Modal -->
+               <div class="modal fade" id="Modal0" tabindex="-5" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                     <div class="modal-content">
+                        <div class="modal-header">
+                           <h5 class="modal-title" id="exampleModalLabel">Weatherapp</h5>
+                           <div class="modal-body">
+                            <div class="img-gallery">
+                               <img src="img/weather.jpg" height="180px" width="180px">
+                               <img src="img/weather.jpg" height="180px" width="180px">
+                               <img src="img/weather.jpg" height="180px" width="180px">
+                            </div>
+                            <video width="320" height="240" controls>
+                               <source src="https://youtu.be/u91xNkPZDmw" type="video/mp4">
+                               Your browser does not support the video tag.
+                            </video>
+                            <p>Desscription goes here</p>
+                            <a href="https://github.com" target="_blank">Github</a>
+                         </div>
+                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        
+                        <div class="modal-footer">
+                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <!--Movie Library App-->
+               <div class="col-lg-4 col-md-6 col-sm-12 element-item webapps">
+                  <div class="our-project">
+                     <div class="img">
+                        <img src="img/movie.jpg"  alt="portfolio-2">
+                     </div>
+                     <div class="title py-4">
+                        <h4 class="text-uppercase">Movie Library App</h4>
+                        <span class="text uppercase">Created with html, <br> css, javascript, and API</span>
+                     </div>
+                     <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">
+                     Launch demo modal
+                     </button>
+                  </div>
+               </div>
+               <!-- Modal -->
+               <div class="modal fade" id="modal1" tabindex="-5" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                     <div class="modal-content">
+                        <div class="modal-header">
+                           <h5 class="modal-title" id="exampleModalLabel">Movie Lbrary App</h5>
+                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="img-gallery">
+                               <img src="img/movie.jpg" height="180px" width="180px">
+                               <img src="img/movie.jpg" height="180px" width="180px">
+                               <img src="img/movie.jpg" height="180px" width="180px">
+                            </div>
+                            <video width="320" height="240" controls>
+                               <source src="https://youtu.be/u91xNkPZDmw" type="video/mp4">
+                               Your browser does not support the video tag.
+                            </video>
+                            <p>Desscription goes here</p>
+                            <a href="https://github.com" target="_blank">Github</a>
+                         </div>
+                        <div class="modal-footer">
+                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                           <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               
+               <!--ColorGame App-->
+               <div class="col-lg-4 col-md-6 col-sm-12 element-item webapps">
+                  <div class="our-project">
+                     <div class="img">
+                        <img src="img/colorgame.jpg"  alt="portfolio-2">
+                     </div>
+                     <div class="title py-4">
+                        <h4 class="text-uppercase">Colorgame App</h4>
+                        <span class="text uppercase">Created with html, <br> css, and javascript</span>
+                     </div>
+                     <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                     Launch demo modal
+                     </button>
+                  </div>
+               </div>
+               <!-- Modal -->
+               <div class="modal fade" id="exampleModal" tabindex="-5" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                     <div class="modal-content">
+                        <div class="modal-header">
+                           <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="img-gallery">
+                               <img src="img/weather.jpg" height="180px" width="180px">
+                               <img src="img/weather.jpg" height="180px" width="180px">
+                               <img src="img/weather.jpg" height="180px" width="180px">
+                            </div>
+                            <video width="320" height="240" controls>
+                               <source src="https://youtu.be/u91xNkPZDmw" type="video/mp4">
+                               Your browser does not support the video tag.
+                            </video>
+                            <p>Desscription goes here</p>
+                            <a href="https://github.com" target="_blank">Github</a>
+                         </div>
+                        <div class="modal-footer">
+                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                           <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               
+               
+               
+               
+               
+               <!--todo List-->
+               <div class="col-lg-4 col-md-6 col-sm-12 element-item webapps">
+                  <div class="our-project">
+                     <div class="img">
+                        <img src="img/todo.jpg"  alt="portfolio-2">
+                     </div>
+                     <div class="title py-4">
+                         <h4 class="text-uppercase">Todo List App</h4>
+                        <span class="text uppercase">Created with html, <br> css, and JavaScript</span>
+                     </div>
+                     <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Launch demo modal
+                        </button>
+                     </div>
+                  </div>
+                   <!-- Modal -->
+               <div class="modal fade" id="exampleModal" tabindex="-5" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                   <div class="modal-content">
+                      <div class="modal-header">
+                         <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="img-gallery">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                          </div>
+                          <video width="320" height="240" controls>
+                             <source src="https://youtu.be/u91xNkPZDmw" type="video/mp4">
+                             Your browser does not support the video tag.
+                          </video>
+                          <p>Desscription goes here</p>
+                          <a href="https://github.com" target="_blank">Github</a>
+                       </div>
+                      <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                         <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                   </div>
+                </div>
+             </div>
+
+                
+
+
+
+
+
+
+
+               <!--Subo Shop-->      
+               <div class="col-lg-4 col-md-6 col-sm-12 element-item frontend">
+                  <div class="our-project">
+                     <div class="img">
+                        <img src="img/suboremake.jpg" alt="portfolio-3">
+                        <div class="title py-4">
+                           <h4 class="text-uppercase">Subo Shop Mockup</h4>
+                           <span class="text uppercase">Created with html and CSS</span>
+                        </div>
+                         <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Launch demo modal
+                        </button>
+                     </div>
+                  </div>
+                   <!-- Modal -->
+               <div class="modal fade" id="exampleModal" tabindex="-5" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                   <div class="modal-content">
+                      <div class="modal-header">
+                         <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="img-gallery">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                          </div>
+                          <video width="320" height="240" controls>
+                             <source src="https://youtu.be/u91xNkPZDmw" type="video/mp4">
+                             Your browser does not support the video tag.
+                          </video>
+                          <p>Desscription goes here</p>
+                          <a href="https://github.com" target="_blank">Github</a>
+                       </div>
+                      <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                         <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                   </div>
+                </div>
+             </div>
+
+                  
+
+
+
+               <!--Real Estate-->
+               <div class="col-lg-4 col-md-6 col-sm-12 element-item frontend">
+                  <div class="our-project">
+                     <div class="img">
+                        <img src="img/realestate.jpg" alt="portfolio-4">
+                        <div class="title py-4">
+                           <h4 class="text-uppercase">Real Estate</h4>
+                           <span class="text uppercase">Created with html, <br> css, javascript, and API</span>
+                        </div>
+
+                         <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Launch demo modal
+                        </button>
+                     </div>
+                  </div>
+                   <!-- Modal -->
+               <div class="modal fade" id="exampleModal" tabindex="-5" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                   <div class="modal-content">
+                      <div class="modal-header">
+                         <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="img-gallery">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                          </div>
+                          <video width="320" height="240" controls>
+                             <source src="https://youtu.be/u91xNkPZDmw" type="video/mp4">
+                             Your browser does not support the video tag.
+                          </video>
+                          <p>Desscription goes here</p>
+                          <a href="https://github.com" target="_blank">Github</a>
+                       </div>
+                      <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                         <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                   </div>
+                </div>
+             </div>
+                     
+
+
+
+               <!--Social Security App-->
+               <div class="col-lg-4 col-md-6 col-sm-12 element-item frontend">
+                  <div class="our-project">
+                     <div class="img">
+                        <img src="img/social.png" alt="portfolio-4">
+                        <div class="title py-4">
+                           <h4 class="text-uppercase">Social Security Mockup</h4>
+                           <span class="text uppercase">Created with html and CSS</span>
+                        </div>
+                         <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Launch demo modal
+                        </button>
+                     </div>
+                  </div>
+                   <!-- Modal -->
+               <div class="modal fade" id="exampleModal" tabindex="-5" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                   <div class="modal-content">
+                      <div class="modal-header">
+                         <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="img-gallery">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                          </div>
+                          <video width="320" height="240" controls>
+                             <source src="https://youtu.be/u91xNkPZDmw" type="video/mp4">
+                             Your browser does not support the video tag.
+                          </video>
+                          <p>Desscription goes here</p>
+                          <a href="https://github.com" target="_blank">Github</a>
+                       </div>
+                      <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                         <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                   </div>
+                </div>
+             </div>
+
+
+                  
+
+
+
+               <!--Mushroom-->
+               <div class="col-lg-4 col-md-6 col-sm-12 element-item frontend">
+                  <div class="our-project">
+                     <div class="img">
+                        <img src="img/mushroom.jpg" alt="portfolio-5">
+                        <div class="title py-4">
+                           <h4 class="text-uppercase">Northwest Mushrooms</h4>
+                           <span class="text uppercase">Created with html, <br> css, javascript, and API</span>
+                        </div>
+
+                         <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Launch demo modal
+                        </button>
+                     </div>
+                  </div>
+                   <!-- Modal -->
+               <div class="modal fade" id="exampleModal" tabindex="-5" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                   <div class="modal-content">
+                      <div class="modal-header">
+                         <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="img-gallery">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                          </div>
+                          <video width="320" height="240" controls>
+                             <source src="https://youtu.be/u91xNkPZDmw" type="video/mp4">
+                             Your browser does not support the video tag.
+                          </video>
+                          <p>Desscription goes here</p>
+                          <a href="https://github.com" target="_blank">Github</a>
+                       </div>
+                      <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                         <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                   </div>
+                </div>
+             </div>
+                     
+
+
+
+
+
+
+
+               <!--News Website--> 
+               <div class="col-lg-4 col-md-6 col-sm-12 element-item frontend">
+                  <div class="our-project">
+                     <div class="img">
+                        <img src="img/news.jpg" alt="portfolio-5">
+                        <div class="title py-4">
+                           <h4 class="text-uppercase">News Website</h4>
+                           <span class="text uppercase">Created with html, <br> css, and javascript</span>
+                        </div>
+
+                         <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Launch demo modal
+                        </button>
+                     </div>
+                  </div>
+                   <!-- Modal -->
+               <div class="modal fade" id="exampleModal" tabindex="-5" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                   <div class="modal-content">
+                      <div class="modal-header">
+                         <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="img-gallery">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                          </div>
+                          <video width="320" height="240" controls>
+                             <source src="https://youtu.be/u91xNkPZDmw" type="video/mp4">
+                             Your browser does not support the video tag.
+                          </video>
+                          <p>Desscription goes here</p>
+                          <a href="https://github.com" target="_blank">Github</a>
+                       </div>
+                      <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                         <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                   </div>
+                </div>
+             </div>
+                    
+
+
+
+
+
+
+               <!--Furniture Store-->
+               <div class="col-lg-4 col-md-6 col-sm-12 element-item uxdesign">
+                  <div class="our-project">
+                     <div class="img">
+                        <img src="img/furniture.jpg" alt="portfolio-4">
+                        <div class="title py-4">
+                           <h4 class="text-uppercase">Furniture Store Mockup</h4>
+                           <span class="text uppercase">Created with html, <br> css </span>
+                        </div>
+
+
+
+                         <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Launch demo modal
+                        </button>
+                     </div>
+                  </div>
+                   <!-- Modal -->
+               <div class="modal fade" id="exampleModal" tabindex="-5" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                   <div class="modal-content">
+                      <div class="modal-header">
+                         <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="img-gallery">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                             <img src="img/weather.jpg" height="180px" width="180px">
+                          </div>
+                          <video width="320" height="240" controls>
+                             <source src="https://youtu.be/u91xNkPZDmw" type="video/mp4">
+                             Your browser does not support the video tag.
+                          </video>
+                          <p>Desscription goes here</p>
+                          <a href="https://github.com" target="_blank">Github</a>
+                       </div>
+                      <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                         <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                   </div>
+                </div>
+             </div>
+                    
+
+
+
+
+
+            </div>
+         </div>
+      </section>
+      <script src="js/jquery.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+      <script src="vendor/isotope/isotope.js"></script>
+      <script src="js/index.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   </body>
+</html>
