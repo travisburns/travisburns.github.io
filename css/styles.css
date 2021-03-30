@@ -61,76 +61,16 @@
     }
 }
 
-.box {
-    position: absolute;
-    bottom: -100px;
-    background: #f2f2f2;
-    opacity: .6;
-    animation: animate 15s infinite ease;
+.container {
+   padding-top: 420px;
+    padding-right: 18px;
 }
 
-.box:nth-child(1) {
-    width: 75px;
-    height: 75px;
-    left: 7%;
-    animation-delay: 1s;
-}
 
-.box:nth-child(2) {
-    width: 80px;
-    height: 80px;
-    left: 20%;
-    animation-delay: 5s;
-}
-
-.box:nth-child(3) {
-    width: 62px;
-    height: 62px;
-    left: 40%;
-    animation-delay: 9s;
-}
-
-.box:nth-child(4) {
-    width: 80px;
-    height: 80px;
-    left: 50%;
-    animation-delay: 2s;
-}
-
-.box:nth-child(5) {
-    width: 60px;
-    height: 60px;
-    left: 27%;
-    animation-delay: 10s;
-}
-
-.box:nth-child(6) {
-    width: 55px;
-    height: 55px;
-    left: 65%;
-    animation-delay: 5s;
-}
-
-.box:nth-child(7) {
-    width: 70px;
-    height: 70px;
-    left: 80%;
-    animation-delay: 9s;
-}
-
-.box:nth-child(8) {
-    width: 90px;
-    height: 90px;
-    left: 75%;
-    animation-delay: 3s;
-}
-
-.box:nth-child(9) {
-    width: 48px;
-    height: 48px;
-    left: 5%;
-    animation-delay: 9s;
-}
+    
+    
+    
+   
 
 
 
@@ -144,26 +84,39 @@
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-    padding-bottom: 350px;
+    padding-bottom: 5px;
 
 }
-#head-content {
-    margin-left: 464px;
-    margin-top: 368px;
-    width: 25.5%;
+
+.site-banner {
+    padding-bottom: 200px;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+#particles-js {
+    position: absolute;
+    background:rgb(30, 102, 136);
+    height: 600px;
+    width: 1900px;
 }
+
+#top-cont{
+    position: absolute;
+    margin-top: 330px;
+    color: white;
+}
+
+#bot-cont{
+    color: white;
+    position: absolute;
+    margin-top: 400px;
+}
+
+.site-buttons {
+    margin-top: 500px;
+    
+
+}
+
 
 
 .site-main .site-banner .site-title h3 {
@@ -214,12 +167,7 @@
 }
 
 
-.site-buttons {
-    margin-top: 10px;
-    margin-left: 10px;
-    text-align: center;
 
-}
 .button-background {
     background-color: white;
 }
@@ -257,6 +205,13 @@
     width: 16rem;
     margin:5rem .5rem;
     transition: box-shadow .7s ease;
+}
+
+
+.services{
+margin-top: 300px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .site-main > .services-area .services:hover{
@@ -364,3 +319,7 @@ footer.footer-area .social a:hover > i{
     
 }
 
+.social {
+    display: flex;
+    justify-content: space-evenly;
+}
