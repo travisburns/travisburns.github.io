@@ -62,13 +62,15 @@
 }
 
 .container {
-   padding-top: 420px;
+   padding-top: 300px;
     padding-right: 18px;
 }
 
 
     
-    
+.about-image {
+    margin-left: 350px;
+}    
     
    
 
@@ -80,13 +82,7 @@
     color:#23a6d5;
 }
 
-.site-main .site-banner {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-    padding-bottom: 5px;
 
-}
 
 .site-banner {
     padding-bottom: 200px;
@@ -124,35 +120,15 @@
     font-weight: 500;
 }
 
-.site-main .site-banner .site-title h3::after {
- 
-    height: 2px;
-    width: 18vw;
-    background: black;
-    display: inline-block;
-    margin-left: 5%;
-    transform: translateY(-10px);
-}
 
-#top-card {
-    background-color: white;
-    
-    margin-top: -200px;
-    box-shadow: -3px -3px -7px #ffffff;
-    border-radius: 10px;
-                
-    }
+
+
 
 
 
     
 
-    .top-pic {
-        
-        height: 125px;
-        width: 125px;
-        margin-left: 65px;
-    }
+    
 
 .site-main .site-banner .site-title h1 {
     font-size: 30px;
@@ -210,18 +186,12 @@
 
 .services{
 margin-top: 300px;
-    margin-left: 80px;
-    margin-right: 80px;
+    
 }
 
-.site-main > .services-area .services:hover{
-    box-shadow: var(--box-shadow);
-}
 
-.site-main .project-area{
-    padding: 4rem 0;
-   
-}
+
+
 
 #portfolio-background {
     background-color: #fcfcfc;
@@ -238,9 +208,7 @@ margin-top: 300px;
     padding-left: 3rem;
 }
 
-.site-main .project-area .grid .our-project > .title h4{
-    
-}
+
 
 .site-main .project-area .grid .our-project a:hover img{
     filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
@@ -257,13 +225,9 @@ margin-top: 300px;
       border-radius: 5px;
   }
 
-  .title h4 p {
-      color: white;
-  }
   
-  #bot-info{
-    
-  }
+  
+ 
   
   .bottom-border {
       

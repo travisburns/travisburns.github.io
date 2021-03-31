@@ -1,26 +1,37 @@
 
 
-@media only screen and (max-width: 1910px) {
+@media only screen and (max-width: 360px) {
     .header_area .main-menu .navbar{
-        padding: 1rem;
+      padding: 0%; 
     }
+}
+   
 
-    .container{
-        max-width: 90%;
+@media only screen and (max-width: 360px) { 
+    #particles-js{
+        width: 360px;
     }
-
-    .site-main .brand-area,
-    .site-main .services-area .services-title,
-    .site-main .about-area{
-        padding: 3% 4%;
-    } 
-
-
 
 }
 
-@media only screen and (min-width:360px) {
-    #top-card {
-      
+
+@media only screen and (max-width: 360px) { 
+    .nav-link{
+        display: none;
     }
 }
+
+@media only screen and (max-width: 360px) { 
+    .about-img{
+        margin-right: 350px;
+    }
+
+}
+
+@media only screen and (max-width: 360px) { 
+    #contact{
+        margin-left: 0px;
+    }
+
+}
+
