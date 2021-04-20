@@ -1,48 +1,80 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+.site-banner {
+    background-color: cornflowerblue;
+    height: 400px;
+    margin-bottom: 250px;
 }
 
-section {
-    padding: 20px;
-    width: 1280px;
-    margin: 40px auto;
+.nav-link  {
+    
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto";
+    }
+
+    .nav-item{
+        margin-left: 20px;
+    }
+
+
+#particles-js {
+    position: absolute;
+    z-index: 0;
+    height: 400px;
+    width: 1900px;
 }
 
-section ul {
-    display: flex;
-    margin-bottom: 10px;
-    ;
+#header-text {
+    position: absolute;
+    z-index: 1;
+   
+}
+.title-text {
+    position: absolute;
+    margin-top: 250px;
+    z-index: 1;
+    color: white;
 }
 
-section ul li {
-    list-style: none;
-    background: #eee;
-    padding: 8px 20px;
-    margin: 5px;
-    letter-spacing: 1px;
-    cursor: pointer;
+.title-text-lower{
+    position: absolute;
+    margin-top: 300px;
+    z-index: 1;
+    color: white;
 }
 
-section ul li.active {
-    background: #03a9f4;
-    color: #fff;
+.site-about {
+    margin-bottom: 250px;
 }
 
-.product {
-    display: flex;
-    flex-wrap: wrap;
+.site-services {
+    margin-bottom: 250px;
 }
 
-.product .itemBox {
-    position: relative;
-    width: 200px;
-    height: 300px;
-    margin: 5px;
+.project-area {
+    margin-bottom: 250px;
 }
 
-.product .itemBox img {}
 
-#position {}
+.project-area .button-group button {
+   
+   border: none;
+   font: normal 500 16px/130px;
+   text-transform: uppercase;
+}
+
+.project-area .button-group button + button {
+    padding-left: 3rem;
+}
+
+.project-area .grid .our-project > title h4{
+    font: normal 700 25px/12px;
+}
+
+.contact {
+    margin-bottom: 250px;
+}
+
+.banner-text {
+    
+}
+
