@@ -1,3 +1,7 @@
+* {
+    font-family: "Roboto";
+}
+
 .site-banner {
     background-color: cornflowerblue;
     height: 400px;
@@ -46,14 +50,33 @@
     margin-bottom: 250px;
 }
 
+.para {
+    font-family: "lato";    
+}
+
 .site-services {
     margin-bottom: 250px;
+}
+
+.card-text {
+    font-family: "lato";
 }
 
 .project-area {
     margin-bottom: 250px;
 }
 
+.button-group {
+    text-align: center;
+}
+
+.project-title {
+    text-align: center;
+}
+
+#bot-info {
+    font-family: "Lato";
+}
 
 .project-area .button-group button {
    
@@ -63,7 +86,7 @@
 }
 
 .project-area .button-group button + button {
-    padding-left: 3rem;
+    padding-bottom: 3px;
 }
 
 .project-area .grid .our-project > title h4{
@@ -71,10 +94,18 @@
 }
 
 .contact {
+    
     margin-bottom: 250px;
-}
-
-.banner-text {
+    
+    width: 20%;
     
 }
+
+.contact p {
+    font-family: "lato";
+}
+
+
+
+
 
