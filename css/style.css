@@ -5,7 +5,7 @@
 .site-banner {
     background-color: cornflowerblue;
     height: 400px;
-    margin-bottom: 250px;
+    margin-bottom: 100px;
 }
 
 .nav-link  {
@@ -30,8 +30,13 @@
 #header-text {
     position: absolute;
     z-index: 1;
-   
 }
+
+#header-text-lower {
+    position: absolute;
+    z-index: 1;
+}
+
 .title-text {
     position: absolute;
     margin-top: 250px;
@@ -39,7 +44,7 @@
     color: white;
 }
 
-.title-text-lower{
+.title-text-lower {
     position: absolute;
     margin-top: 300px;
     z-index: 1;
@@ -54,8 +59,16 @@
     font-family: "lato";    
 }
 
-.site-services {
+.services {
     margin-bottom: 250px;
+}
+
+.service-area {
+    padding-bottom: 150px;
+}
+
+.section-text {
+    margin-bottom: 150px;
 }
 
 .card-text {
@@ -74,7 +87,7 @@
     text-align: center;
 }
 
-#bot-info {
+.bot-info {
     font-family: "Lato";
 }
 
@@ -84,7 +97,6 @@
    font: normal 500 16px/130px;
    text-transform: uppercase;
 }
-
 .project-area .button-group button + button {
     padding-bottom: 3px;
 }
@@ -93,19 +105,28 @@
     font: normal 700 25px/12px;
 }
 
+
+
 .contact {
-    
-    margin-bottom: 250px;
-    
-    width: 20%;
-    
+    padding-bottom: 120px;
+   }
+
+
+
+.contact h2 {
+    text-align: center;
 }
+
+
 
 .contact p {
     font-family: "lato";
+    text-align: center;
 }
 
 
 
 
-
+.footer-area {
+    padding-bottom: 1px;
+}

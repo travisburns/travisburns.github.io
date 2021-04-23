@@ -1,460 +1,376 @@
 <!DOCTYPE html>
 <html lang="en">
-
+   
 <head>
-    <!--Required meta tags always come first-->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    
-    <!--Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+      <!--Required meta tags always come first-->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <!--Bootstrap CSS-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+      <!--Additional CSS must be placed after Bootstrap CSS-->
+      <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css"/>
+      <link rel="stylesheet" href="css/responsive.css"/>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+      <title>Travis Burns - Front End Web Developer</title>
+   </head>
 
-
-    <!--Additional CSS must be placed after Bootstrap CSS-->
-   
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&display=swap" rel="stylesheet">
-   
-    
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/responsive.css"/>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
-    <title>Travis Burns - Front End Web Developer</title>
-    
-</head>
-
-<body>
-
-
-  <header class="header-area">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand"  href="#"><img src="img/logo.png" alt="logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav px-5 mx-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Project's</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              
-            </ul>
-          </div>
-        </div>
-      </nav>
+   <body>
+      <header class="header-area">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+               <a class="navbar-brand"  href="#"><img src="img/logo.png" alt="logo"></a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav px-5 mx-auto">
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#section-nav">About</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#services-nav">Services</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#projects-nav">Project's</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#contact-nav">Contact</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
       </header>
-    
-
-    
 
       <section class="site-banner">
-        <div id="particles-js" class="img-fluid">
-          
-        </div>
+         <div id="particles-js" class="img-fluid">
+         </div>
          <div class="banner-text">
-             <div data-aos="fade-down">
-        <h1 data aos="fade-left" class="title-text text-uppercase"  id="header-text">Travis Burns</h1> 
-         <h2 data aos="fade-right" class="title-text-lower text-uppercase" id="header-text">Front End Web Developer</h2>
-      </div>
-      </div>
-      </section>
-    
-      
-      
-      <section class="site-about">
-        <div class="section-text text-center">
-            <h2>About</h2>
-        </div>
-    <div class="container-fluid">
-       <div class="row text-center">
-           
-           <div data-aos="fade-right" class="col-lg-6 about-image">
-               <img src="img/photo.png" alt="Photo of Travis Burns" class="img-fluid img-responsive img-container">
-           </div>
-      
-       <div data-aos="fade-left" class="col-lg-6 about-text">
-           <h3 class="text-uppercase pt-5">
-               <span>Lorem epson text placed here.</span>
-           </h3>
-
-           <div class="paragraph">
-               <p class="para">
-                Born and residing in Eugene, Oregon. 3 years of experience in the web development feild.
-               </p>
-               <p class="para">
-                After acquiring my bachelors in Art and Technology I have specialized in Front End Web Development. 
-                I am experienced in creating web templates in addition to creating web apps. My skill sets include Html, CSS, Bootstrap, Javascript, and React.  
-               </p>
-               <p class="para">
-                As a added bonus, I have a eye for design and expertise in Adobe Creative Suite in addition to Digital Marketing Services such as SEO and Facebook Advertisments. 
-               </p>
-           </div>
-           <button type="button" class="btn btn-primary">Download Csv</button>
-        </div>
-        </div> 
-    </div>
-    </section>
-
-      
-       
-
-      <section id=" services"></section>
-<section data-aos="fade-down" class="services-area">
-  
-  <section class="site-services">
-    <div class="services">
-        <div data-aos="fade-down" class="row">
-            <div class="col-lg-12 text-center service-area">
-                <h1 class="text-uppercase">Services offers</h1>
-                <p class="para">
-                    I offer Front End Web Development, Backend Development, Search Engine Optimization, and, UX Design. 
-                </p>
+            <div data-aos="fade-down">
+                <div data-aos="fade-left">
+               <h1 class="title-text text-uppercase"  id="header-text">Travis Burns</h1>
             </div>
-        </div>
-        <!--Front End Services-->
-        <div class="services-list">
-            <div class="row">
-                <div data-aos="fade-right" data-aos-delay="100" class="col-lg-3 cold-md-6 col-sm-12">
-                    <div class="service">
+               <div data-aos="fade-right">
+               <h2 class="title-text-lower text-uppercase" id="header-text-lower">Front End Web Developer</h2>
+            </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="site-about">
+         <div class="section-text text-center" id="section-nav">
+            <h2>About</h2>
+         </div>
+         <div class="container-fluid">
+            <div class="row text-center">
+               <div data-aos="fade-right" class="col-lg-6 about-image">
+                  <img src="img/photo.png" alt="Photo of Travis Burns" class="img-fluid img-responsive img-container">
+               </div>
+               <div data-aos="fade-left" class="col-lg-6 about-text">
+                  <h3 class="text-uppercase pt-5">
+                     <span>Lorem epson text placed here.</span>
+                  </h3>
+                  <div class="paragraph">
+                     <p class="para">
+                        Born and residing in Eugene, Oregon. 3 years of experience in the web development feild.
+                     </p>
+                     <p class="para">
+                        After acquiring my bachelors in Art and Technology I have specialized in Front End Web Development. 
+                        I am experienced in creating web templates in addition to creating web apps. My skill sets include Html, CSS, Bootstrap, Javascript, and React.  
+                     </p>
+                     <p class="para">
+                        As a added bonus, I have a eye for design and expertise in Adobe Creative Suite in addition to Digital Marketing Services such as SEO and Facebook Advertisments. 
+                     </p>
+                  </div>
+                  <button type="button" class="btn btn-primary">Download Csv</button>
+               </div>
+            </div>
+         </div>
+      </section>
+      
+      <section data-aos="fade-down" class="services-area">
+      
+         <div class="services">
+            <div data-aos="fade-down" class="row ">
+               <div class="col-lg-12 text-center service-area">
+                  <h1 class="text-uppercase" id="services-nav">Services offers</h1>
+                  <p class="para">
+                     I offer Front End Web Development, Backend Development, Search Engine Optimization, and, UX Design. 
+                  </p>
+               </div>
+            </div>
+
+            <!--Front End Services-->
+            <div class="services-list">
+               <div class="row">
+                  <div data-aos="fade-right" data-aos-delay="100" class="col-lg-3 cold-md-6 col-sm-12">
+                     <div class="service">
                         <div class="services-img text-center py-4">
-                            <img src="img/frontend.png" alt="services-1">
+                           <img src="img/fontend.png" alt="services-frontend">
                         </div>
                         <div data-aos="fade-left" data-aos-delay="100" class="card-body text-center">
-                            <h5 class="card-title text-uppercase font-roboto">Front End</h5>
-                            <p class="card-text text-secondary">
-                                Front End Web Developer with 3 years experience building and mainting responsive websites. Proficient in HTML, CSS, Javascript, Modern Libraries and frameworks. Adapt in Adobe Photoshop. 
-                            </p>
-                        </div> 
-                    </div>
-                </div>
-                 <!--Back End Services-->
-                <div data-aos="fade-right" data-aos-delay="300" class="col-lg-3 cold-md-6 col-sm-12">
-                    <div class="service">
+                           <h5 class="card-title text-uppercase font-roboto">Front End</h5>
+                           <p class="card-text text-secondary">
+                              Front End Web Developer with 3 years experience building and mainting responsive websites. Proficient in HTML, CSS, Javascript, Modern Libraries and frameworks. Adapt in Adobe Photoshop. 
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!--Back End Services-->
+                  <div data-aos="fade-right" data-aos-delay="300" class="col-lg-3 cold-md-6 col-sm-12">
+                     <div class="service">
                         <div class="services-img text-center py-4">
-                            <img src="img/backend.png" alt="services-1">
+                           <img src="img/backend.png" alt="services-backend">
                         </div>
                         <div data-aos="fade-left" data-aos-delay="300" class="card-body text-center">
-                            <h5 class="card-title text-uppercase font-roboto">Back End</h5>
-                            <p class="card-text text-secondary">
-                                Lorem Epsom Text
-                            </p>
-                        </div> 
-                    </div>
-                </div>
-                 <!--SEO Services-->
-                <div data-aos="fade-right" data-aos-delay="500" class="col-lg-3 cold-md-6 col-sm-12">
-                    <div class="service">
+                           <h5 class="card-title text-uppercase font-roboto">Back End</h5>
+                           <p class="card-text text-secondary">
+                              Lorem Epsom Text
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!--SEO Services-->
+                  <div data-aos="fade-right" data-aos-delay="500" class="col-lg-3 cold-md-6 col-sm-12">
+                     <div class="service">
                         <div class="services-img text-center py-4">
-                            <img src="img/seo.png" alt="services-1">
+                           <img src="img/seo.png" alt="services-seo">
                         </div>
                         <div data-aos="fade-left" data-aos-delay="500" class="card-body text-center">
-                            <h5 class="card-title text-uppercase font-roboto">SEO</h5>
-                            <p class="card-text text-secondary">
-                                Google Analytics,
-                                Google Tag Manager,
-                                User behavior data,
-                                Reporting and insights.
-                            </p>
-                        </div> 
-                    </div>
-                </div>
-                 <!--WordPress Services-->
-                <div data-aos="fade-right" data-aos-delay="700" class="col-lg-3 cold-md-6 col-sm-12">
-                    <div class="service">
+                           <h5 class="card-title text-uppercase font-roboto">SEO</h5>
+                           <p class="card-text text-secondary">
+                              Google Analytics,
+                              Google Tag Manager,
+                              User behavior data,
+                              Reporting and insights.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  <!--WordPress Services-->
+                  <div data-aos="fade-right" data-aos-delay="700" class="col-lg-3 cold-md-6 col-sm-12">
+                     <div class="service">
                         <div class="services-img text-center py-4">
-                            <img src="img/wordpress.png" alt="services-1">
+                           <img src="img/wordpress.png" alt="services-Wordpress">
                         </div>
                         <div data-aos="fade-left" data-aos-delay="700" class="card-body text-center">
-                            <h5 class="card-title text-uppercase font-roboto">Wordpress</h5>
-                            <p class="card-text text-secondary">
-                                Experienced Wordpress Designer responsible for creating templates in addition to hosting websites on Wordpress. 
-                            </p>
-                        </div> 
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-</section>
-    
-  
-  
-
-
-  <section class="project-area" id="portfolio-background">
-    <div class="container">
-      <div data-aos="fade-up" class="project-title pb-5">
-        <h1 class="text-uppercase title-h1">
-          <h1 class="text-uppercase title-h1">Project's</h1>
-        
-      </div>
-
-      <div data-aos="fade-down" class="button-group pb-5">
-        <button type="button" class="active btn btn-primary" id="btnportfolio" data-filter="*">All</button>
-        <button type="button" class="btn btn-primary" data-filter=".frontend" id="btnportfolio" >Front End</button>
-        <button type="button" class="btn btn-primary" data-filter=".webapps" id="btnportfolio">Web Apps</button>
-        <button type="button" class="btn btn-primary" data-filter= ".uxdesign" id="btnportfolio">UX Design</button>
-        
-      </div>
-
-      <div data-aos="fade-left" class="row grid" id="row-space">
-        
-        <div class="col-lg-4 col-md-6 col-sm-12 element-item webapps">
-          <div class="our-project" id="project-outer">
-            <div class="img">
-             
-              <img src="img/weather.jpg" height="200px" width="200px" alt="portfolio-1">
-            
-          </div>
-              <div class="title py-4">
-                <h4 class="text-uppercase">Weatherapp</h4>
-                <span class="text uppercase" id="bot-info">Weather App that detects<br> weather from database.</span></div>
-                <div class="bottom-border">
-                <a href="https://github.com" target="_blank">Github</a>
-                </div>
-              </div>
-             
-            
-      
-
-
-
-          </div>
-
-          
- 
-         
-        
-        <div class="col-lg-4 col-md-6 col-sm-12 element-item webapps">
-          <div class="our-project" id="project-outer">
-            <div class="img">
-            
-              <img src="img/movie.jpg"  alt="portfolio-2">
-            
-            </div>
-           
-          
-              <div class="title py-4">
-                <h4 class="text-uppercase">Movie Library App</h4>
-                <span class="text uppercase"  id="bot-info">Movie App that logs information<br> from a database.</span>
-              </div>
-              <div class="bottom-border">
-              <a href="https://github.com" target="_blank">Github</a>
-             
-            </div>
-          </div>
-          </div>
-
-       
-
-          <div class="col-lg-4 col-md-6 col-sm-12 element-item webapps">
-            <div class="our-project" id="project-outer">
-              <div class="img">
-                
-                <img src="img/colorgame.jpg"  alt="portfolio-2">
-              
-              </div>
-             
-            
-                <div class="title py-4">
-                  <h4 class="text-uppercase">Colorgame App</h4>
-                  <span class="text uppercase" id="bot-info">Web App that provides a hex color<br> that you have to guess. </span>
-                </div>
-                <div class="bottom-border">
-                <a href="https://github.com" target="_blank">Github</a>
-
-              </div>
-            </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-12 element-item webapps">
-              <div class="our-project" id="project-outer">
-                <div class="img">
-                  
-                  <img src="img/todo.jpg"  alt="portfolio-2">
-                
-                </div>
-               
-              
-                  <div class="title py-4">
-                    <h4 class="text-uppercase">Todo List App</h4>
-                    <span class="text uppercase" id="bot-info">To Do List that allows you to<br> log important tasks.</span>
+                           <h5 class="card-title text-uppercase font-roboto">Wordpress</h5>
+                           <p class="card-text text-secondary">
+                              Experienced Wordpress Designer responsible for creating templates in addition to hosting websites on Wordpress. 
+                           </p>
+                        </div>
+                     </div>
                   </div>
-                  <div class="bottom-border">
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="project-area" id="portfolio-background">
+         <div class="container">
+         <div data-aos="fade-up" class="project-title pb-5" id="projects-nav">
+            
+            <h1 class="text-uppercase title-h1">Project's</h1>
+         </div>
+         <div data-aos="fade-down" class="button-group pb-5">
+            <button type="button" class="active btn btn-primary" data-filter="*">All</button>
+            <button type="button" class="btn btn-primary" data-filter=".frontend"  >Front End</button>
+            <button type="button" class="btn btn-primary" data-filter=".webapps" >Web Apps</button>
+            <button type="button" class="btn btn-primary" data-filter= ".uxdesign" >UX Design</button>
+         </div>
+         <div data-aos="fade-left" class="row grid" id="row-space">
+         <div class="col-lg-4 col-md-6 col-sm-12 element-item webapps">
+            <div class="our-project">
+               <div class="img">
+                  <img src="img/weather.png"  alt="portfolio-1">
+               </div>
+               <div class="title py-4">
+                  <h4 class="text-uppercase">Weatherapp</h4>
+                  <span class="text uppercase bot-info">Weather App that detects<br> weather from database.</span>
+               </div>
+               <div class="bottom-border">
                   <a href="https://github.com" target="_blank">Github</a>
-                </div>
-              </div>
-              
-              </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-12 element-item frontend">
-          <div class="our-project" id="project-outer">
-            <div class="img">
-              <img src="img/suboremake.jpg" alt="portfolio-3">
+               </div>
             </div>
-              <div class="title py-4">
-                <h4 class="text-uppercase">Subo Shop Mockup</h4>
-                <span class="text uppercase" id="bot-info">Mock up template for a local<br> resturant. </span>
-
-              </div>
-              <div class="bottom-border">
-              <a href="https://github.com" target="_blank">Github</a>
+         </div>
+         <div class="col-lg-4 col-md-6 col-sm-12 element-item webapps">
+            <div class="our-project">
+               <div class="img">
+                  <img src="img/movie.jpg"  alt="portfolio-2">
+               </div>
+               <div class="title py-4">
+                  <h4 class="text-uppercase">Movie Library App</h4>
+                  <span class="text uppercase bot-info">Movie App that logs information<br> from a database.</span>
+               </div>
+               <div class="bottom-border">
+                  <a href="https://github.com" target="_blank">Github</a>
+               </div>
             </div>
-          </div>
-          </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-12 element-item frontend">
-          <div class="our-project" id="project-outer">
-            <div class="img">
-              <img src="img/realestate.jpg" alt="portfolio-4">
+         </div>
+         <div class="col-lg-4 col-md-6 col-sm-12 element-item webapps">
+            <div class="our-project">
+               <div class="img">
+                  <img src="img/colorgame.jpg"  alt="portfolio-3">
+               </div>
+               <div class="title py-4">
+                  <h4 class="text-uppercase">Colorgame App</h4>
+                  <span class="text uppercase bot-info">Web App that provides a hex color<br> that you have to guess. </span>
+               </div>
+               <div class="bottom-border">
+                  <a href="https://github.com" target="_blank">Github</a>
+               </div>
             </div>
-              <div class="title py-4">
-                <h4 class="text-uppercase">Real Estate</h4>
-                <span class="text uppercase" id="bot-info">Template used to create a real<br> estate webpage, uses API.</span>
-              </div>
-              <div class="bottom-border">
-              <a href="https://github.com" target="_blank">Github</a>
+         </div>
+         <div class="col-lg-4 col-md-6 col-sm-12 element-item webapps">
+            <div class="our-project">
+               <div class="img">
+                  <img src="img/todo.jpg"  alt="portfolio-4">
+               </div>
+               <div class="title py-4">
+                  <h4 class="text-uppercase">Todo List App</h4>
+                  <span class="text uppercase bot-info">To Do List that allows you to<br> log important tasks.</span>
+               </div>
+               <div class="bottom-border">
+                  <a href="https://github.com" target="_blank">Github</a>
+               </div>
             </div>
-          </div>
-          </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-12 element-item frontend">
-          <div class="our-project" id="project-outer">
-            <div class="img">
-              <img src="img/social.png" alt="portfolio-4">
+         </div>
+         <div class="col-lg-4 col-md-6 col-sm-12 element-item frontend">
+            <div class="our-project">
+               <div class="img">
+                  <img src="img/suboremake.jpg" alt="portfolio-5">
+               </div>
+               <div class="title py-4">
+                  <h4 class="text-uppercase">Subo Shop Mockup</h4>
+                  <span class="text uppercase bot-info">Mock up template for a local<br> resturant. </span>
+               </div>
+               <div class="bottom-border">
+                  <a href="https://github.com" target="_blank">Github</a>
+               </div>
             </div>
-              <div class="title py-4">
-                <h4 class="text-uppercase">Social Security</h4>
-                <span class="text uppercase" id="bot-info">Mockup template of the social<br> security page. </span>
-              </div>
-              <div class="bottom-border">
-              <a href="https://github.com" target="_blank">Github</a>
+         </div>
+         <div class="col-lg-4 col-md-6 col-sm-12 element-item frontend">
+            <div class="our-project">
+               <div class="img">
+                  <img src="img/realestate.jpg" alt="portfolio-6">
+               </div>
+               <div class="title py-4">
+                  <h4 class="text-uppercase">Real Estate</h4>
+                  <span class="text uppercase bot-info">Template used to create a real<br> estate webpage, uses API.</span>
+               </div>
+               <div class="bottom-border">
+                  <a href="https://github.com" target="_blank">Github</a>
+               </div>
             </div>
-          </div>
-          </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-12 element-item frontend">
-          <div class="our-project" id="project-outer">
-            <div class="img">
-              <img src="img/mushroom.jpg" alt="portfolio-5">
+         </div>
+         <div class="col-lg-4 col-md-6 col-sm-12 element-item frontend">
+            <div class="our-project">
+               <div class="img">
+                  <img src="img/social.png" alt="portfolio-7">
+               </div>
+               <div class="title py-4">
+                  <h4 class="text-uppercase">Social Security</h4>
+                  <span class="text uppercase bot-info">Mockup template of the social<br> security page. </span>
+               </div>
+               <div class="bottom-border">
+                  <a href="https://github.com" target="_blank">Github</a>
+               </div>
             </div>
-              <div class="title py-4">
-                <h4 class="text-uppercase">Northwest Mushrooms</h4>
-                <span class="text uppercase" id="bot-info">Webpage that display's data<br> about mushrooms.</span>
-              </div>
-              <div class="bottom-border">
-              <a href="https://github.com" target="_blank">Github</a>
+         </div>
+         <div class="col-lg-4 col-md-6 col-sm-12 element-item frontend">
+            <div class="our-project">
+               <div class="img">
+                  <img src="img/mushroom.jpg" alt="portfolio-8">
+               </div>
+               <div class="title py-4">
+                  <h4 class="text-uppercase">Northwest Mushrooms</h4>
+                  <span class="text uppercase bot-info">Webpage that display's data<br> about mushrooms.</span>
+               </div>
+               <div class="bottom-border">
+                  <a href="https://github.com" target="_blank">Github</a>
+               </div>
             </div>
-          </div>
-          </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-12 element-item frontend">
-          <div class="our-project" id="project-outer">
-            <div class="img">
-              <img src="img/news.jpg" alt="portfolio-5">
+         </div>
+         <div class="col-lg-4 col-md-6 col-sm-12 element-item frontend">
+            <div class="our-project">
+               <div class="img">
+                  <img src="img/news.jpg" alt="portfolio-9">
+               </div>
+               <div class="title py-4">
+                  <h4 class="text-uppercase">News Website</h4>
+                  <span class="text uppercase bot-info">News website template.</span>
+               </div>
+               <div class="bottom-border">
+                  <a href="https://github.com" target="_blank">Github</a>
+               </div>
             </div>
-              <div class="title py-4">
-                <h4 class="text-uppercase">News Website</h4>
-                <span class="text uppercase" id="bot-info">News website template.</span>
-                </div>
-                <div class="bottom-border">
-                <a href="https://github.com" target="_blank">Github</a>
-              </div>
+         </div>
+         <div class="col-lg-4 col-md-6 col-sm-12 element-item uxdesign">
+            <div class="our-project">
+               <div class="img">
+                  <img src="img/furniture.jpg" alt="portfolio-10">
+               </div>
+               <div class="title py-4">
+                  <h4 class="text-uppercase">Furniture Store Mockup</h4>
+                  <span class="text uppercase bot-info">Furniture store template<br> designed for a client.</span>
+               </div>
+               <div class="bottom-border">
+                  <a href="https://github.com" target="_blank">Github</a>
+               </div>
             </div>
+         </div>
+         </div>
+         </div>
+      </section>
+
+      <section class="contact col-lg-12 text-center">
+         <h2 class="" id="contact-nav">Contact me</h2>
+         <p>Wishing to Hire or inquiry about work? Please Feel free to contact me</p>
+         <a class="email col-lg-12 text-center" href="mailto:travisjb0@gmail.com">Send Email</a>
+      </section>
+      <footer class="col-lg-12 footer-area bg bg-primary">
+         <div class="container">
+            <div class="social text-center">
+               <h5 class="text-uppercase"> Follow me</h5>
+               <a href="https://www.facebook.com/travis.burns.351756" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
+               <a href="https://www.instagram.com/travisthelisi/" target="_blank"><img src="img/instagram.png" alt="instagram"></a>
+               <a href="https://twitter.com/TravisBurns12" target="_blank"><img src="img/twitter.png" alt="twitter"></a>
+               <a href="https://www.linkedin.com/in/travis-burns-a7945890/" target="_blank"><img src="img/linkedin.png" alt="linkedin"></a>
             </div>
-            
-
-          
-
-        <div class="col-lg-4 col-md-6 col-sm-12 element-item uxdesign">
-          <div class="our-project" id="project-outer">
-            <div class="img">
-              <img src="img/furniture.jpg" alt="portfolio-4">
+            <div class="copyrights text-center">
+               <p>
+                  Copyright 2020 Travis Burns
+               </p>
             </div>
-              <div class="title py-4">
-                <h4 class="text-uppercase">Furniture Store Mockup</h4>
-                <span class="text uppercase" id="bot-info">Furniture store template<br> designed for a client.</span>
-              </div>
-              <div class="bottom-border">
-              <a href="https://github.com" target="_blank">Github</a>
-          
-          
-          </div>
-        </div>
-        </div>
-        
+         </div>
+      </footer>
 
-
-      
-  
-  </section>
-
-  <section class="row bg bg-primary contact">
-    <h2 class="col-lg-12 col-md-6">Contact me</h2>
-    <p>Wishing to Hire or inquiry about work? Please Feel free to contact me</p>
-    <a href="mailto: travisjb0@gmail.com">Send Email</a>
-
-    </section>
-    
-
-    <footer class="footer-area bg bg-primary">
-      <div class="container">
-          <div class="social text-center">
-            <h5 class="text-uppercase"> Follow me</h5>
-            <a href="https://www.facebook.com/travis.burns.351756" target="_blank"><img src="img/facebook.png"></a>
-            <a href="https://www.instagram.com/travisthelisi/" target="_blank"><img src="img/instagram.png"></a>
-            <a href="https://twitter.com/TravisBurns12" target="_blank"><img src="img/twitter.png"></a>
-            <a href="https://www.linkedin.com/in/travis-burns-a7945890/" target="_blank"><img src="img/linkedin.png"></a>
-            
-          </div>
-        <div class="copyrights text-center">
-            <p>
-              Copyright 2020 Travis Burns
-            </p>
-        </div>
-        
-      </div>
-    </footer>
-
- <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
- <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
- <script>
-     particlesJS.load('particles-js', 'particles.json', function(){
-         console.log('particles.json loaded...');
-     
-        });
-
- </script>
- 
- <script src="js/jquery.js"></script>
- 
-
- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
- <script src="vendor/isotope/isotope.js"></script>
-
- <script src="js/index.js"></script>
- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-</body>
-
+      <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+      <script>
+         particlesJS.load('particles-js', 'particles.json', function(){
+             console.log('particles.json loaded...');
+         
+            });
+         
+      </script>
+      <script src="js/jquery.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+      <script src="vendor/isotope/isotope.js"></script>
+      <script src="js/index.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   </body>
 </html>
