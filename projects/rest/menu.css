@@ -1,0 +1,95 @@
+
+
+#top-nav {
+  padding: 45px;
+  background-color: white;
+
+}
+
+#navbar {
+  background-color: #272727;
+  padding-bottom: 5px;
+  align-items: center;
+  padding-top: 5px;
+
+}
+
+.logo {
+  display: flex;
+  margin-left: 350px;
+}
+
+.nav-items {
+  color: white;
+  display: flex;
+  margin-left: 375px;
+  list-style: none;
+
+  font-size: 18px;
+}
+
+.home {
+
+  margin-right: 20px;
+}
+
+.menu {
+  margin-right: 20px;
+}
+
+.online {
+  margin-right: 20px;
+}
+
+.catering {
+  margin-right: 20px;
+}
+
+.about {
+  margin-right: 20px;
+}
+
+.contact {
+  margin-right: 20px;
+}
+
+html {
+background-image: url("https://us.123rf.com/450wm/alexandernedviga/alexandernedviga1708/alexandernedviga170800087/83413781-dark-wood-surface-seamless-texture-dark-wooden-board-panel-background-vertical-across-tree-fibers-di.jpg?ver=6");
+margin: 0;
+}
+
+body {
+  margin:0;
+}
+
+.main {
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 405px;
+  margin-right: 405px;
+  padding: 20px;
+}
+
+.head1 {
+  display: flex;
+  justify-content: flex-start;
+  font-size:50px;
+  margin-bottom: 25px;
+}
+
+.head2 {
+  display: flex;
+  justify-content: center;
+  font-size: 55px;
+  margin-top: 25px;
+}
+
+.foot {
+  background-color: #272727;
+  padding-top: 40px;
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}

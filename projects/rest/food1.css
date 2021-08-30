@@ -1,0 +1,265 @@
+
+
+#top-nav {
+  padding: 45px;
+  background-color: white;
+
+}
+
+#navbar {
+  background-color: #272727;
+  padding-bottom: 5px;
+  align-items: center;
+  padding-top: 5px;
+
+}
+
+.logo {
+  display: flex;
+  margin-left: 350px;
+}
+
+.nav-items {
+  color: white;
+  display: flex;
+  margin-left: 375px;
+  list-style: none;
+
+  font-size: 18px;
+}
+
+
+.home {
+
+  margin-right: 20px;
+}
+
+.menu {
+  margin-right: 20px;
+
+}
+
+.online {
+  margin-right: 20px;
+}
+
+.catering {
+  margin-right: 20px;
+}
+
+.about {
+  margin-right: 20px;
+}
+
+.contact {
+  margin-right: 20px;
+}
+
+html {
+background-image: url("https://us.123rf.com/450wm/alexandernedviga/alexandernedviga1708/alexandernedviga170800087/83413781-dark-wood-surface-seamless-texture-dark-wooden-board-panel-background-vertical-across-tree-fibers-di.jpg?ver=6");
+margin: 0;
+}
+
+body {
+  margin:0;
+}
+
+.main {
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 405px;
+  margin-right: 405px;
+  padding: 20px;
+}
+
+.top-grid {
+  display: grid;
+  grid-template-columns: 220px 220px 220px 220px 120px;
+  grid-template-rows: 220px  220px 220px;
+  grid-row-gap: 3px;
+  grid-column-gap: 2px;
+}
+
+.pic1 {
+  background-image: url("1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.pic2 {
+  background-image: url("2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.pic3{
+  background-image: url("3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.pic4 {
+  background-image: url("4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.pic5 {
+  background-image: url("5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 2;
+  grid-row: 2/4;
+}
+
+.pic6 {
+  background-image: url("6.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 5px;
+  grid-column: 3/7;
+  grid-row: 1/4;
+}
+
+.head1 {
+margin-left: 380px;
+
+  font-size: 13px;
+}
+
+.head2 {
+  margin-left: 100px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.head3 {
+  margin-left: 330px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.img1 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.head4 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.head5 {
+display: flex;
+justify-content: center;
+font-size: 20px;
+}
+
+.head6 {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.content3 {
+  margin-left: 80px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 550px 600px;
+  grid-template-rows: 100px 50px 50px 50px;
+}
+
+.img2 {
+grid-row: 1/6;
+grid-column: 2;
+background-image: url("7.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+
+}
+
+.head7 {
+grid-row: 2;
+font-size: 20px;
+font-weight: bold;
+
+}
+
+.head8 {
+grid-row: 3;
+font-size: 35px;
+font-weight: bold;
+}
+
+.head9 {
+grid-row:5;
+font-weight: bold;
+
+}
+
+
+.head10 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.content5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+
+.img3 {
+margin-left: 120px;
+margin-right: 50px;
+}
+
+.img4 {
+margin-left: 30px;
+margin-right: 50px;
+
+}
+
+.content6 {
+  display: flex;
+  justify-content: center;
+}
+
+.content7 {
+  display: flex;
+  justify-content: center;
+}
+
+.content8 {
+  display: flex;
+  justify-content: center;
+
+}
+
+.foot {
+  background-color: #272727;
+  padding-top: 40px;
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
