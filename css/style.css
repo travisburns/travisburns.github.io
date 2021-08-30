@@ -1,0 +1,358 @@
+* {
+	font-family: "Roboto";
+	margin: 0;
+	overflow-x: hidden;
+}
+
+.header-area {
+	z-index: 1;
+	width: 100%;
+	position: absolute;
+}
+
+
+
+.nav-link {
+	color: rgb(1, 129, 129) !important;
+	font-family: "Roboto";
+}
+
+.nav-item {
+	margin-left: 20px;
+}
+
+.nav-link:hover {
+	color: white !important;
+	-webkit-transition: color 0.5s ease-out;
+	-moz-transition: color 0.5s ease-out;
+	-o-transition: color 0.5s ease-out;
+	-ms-transition: color 0.5s ease-out;
+	transition: color 1s ease-out;
+	border: 1px solid teal;
+}
+
+.main-text {
+	padding-top: 7rem;
+	z-index: 1;
+}
+
+.main-text h1 span {
+	color: rgb(61, 19, 138);
+	animation: text .25s;
+}
+
+.main-text h1 span {
+	color: black;
+	animation: text 2s;
+}
+
+@keyframes text {
+	0% {
+		opacity: 0%;
+		color: #8f0fc2;
+	}
+	10% {
+		opacity: 10%;
+		color: #8f0fc2;
+	}
+	20% {
+		opacity: 20%;
+		color: #8f0fc2;
+	}
+	30% {
+		opacity: 30%;
+		color: #8f0fc2;
+	}
+	40% {
+		opacity: 40%;
+		color: #3d029b;
+	}
+	50% {
+		opacity: 50%;
+		color: #3d029b;
+	}
+	60% {
+		opacity: 60%;
+		color: #3d029b;
+	}
+	70% {
+		opacity: 70%;
+		color: #3d029b;
+	}
+	80% {
+		opacity: 80%;
+		color: #17003d;
+	}
+	90% {
+		opacity: 90%;
+		color: #17003d;
+	}
+	100% {
+		Opacity: 100%;
+		color: #17003d;
+	}
+}
+
+.contact-btn {
+	background-color: #212529;
+	color: #2bf3c0;
+}
+
+.separate {
+	color: rgb(1, 129, 129)
+}
+
+.animation-area {
+	background: linear-gradient(to left, #2bf3c0, #6ddbe1, #0ec78f, #2bf3c0);
+	width: 100%;
+	height: 500px;
+}
+
+.box-area {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+
+.box-area li {
+	position: absolute;
+	display: block;
+	list-style: none;
+	width: 25px;
+	height: 25px;
+	background: rgba(43, 12, 214, 0.2);
+	animation: animate 20s linear infinite;
+	top: 400px;
+}
+
+.box-area li:nth-child(1) {
+	left: 86%;
+	width: 30px;
+	height: 30px;
+	animation-duration: 2.5s;
+	background-color: khaki;
+}
+
+.box-area li:nth-child(2) {
+	left: 12%;
+	width: 30px;
+	height: 30px;
+	animation-delay: .5s;
+	animation-duration: 3s;
+	background-color: red;
+}
+
+.box-area li:nth-child(3) {
+	left: 70%;
+	width: 30px;
+	height: 30px;
+	animation-delay: .10s;
+	background-color: blue;
+}
+
+.box-area li:nth-child(4) {
+	left: 42%;
+	width: 30px;
+	height: 30px;
+	animation-duration: 4s;
+	background-color: rgb(158, 29, 158);
+}
+
+.box-area li:nth-child(5) {
+	left: 65%;
+	width: 40px;
+	height: 40px;
+	animation-duration: 3s;
+	background-color: rgb(36, 128, 82);
+}
+
+.box-area li:nth-child(6) {
+	left: 15%;
+	width: 110px;
+	height: 110px;
+	background-color: rgb(29, 158, 119);
+}
+
+@keyframes animate {
+	0% {
+		transform: translateY(0) rotate(0deg);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(-400px) rotate(360deg);
+		opacity: 0;
+	}
+}
+
+.main-text {
+	color: rgb(0, 0, 0);
+	margin-top: 20px;
+}
+
+.site-about {
+	padding: 60px;
+	background-color: #212529;
+}
+
+.about-title {
+	color: rgb(1, 129, 129);
+}
+
+.about-text {
+	border: 1px solid teal;
+}
+
+.para {
+	font-family: "lato";
+	font-size: 25px;
+	color: rgb(1, 129, 129);
+}
+
+.services {
+	background: linear-gradient(to left, #2bf3c0, #6ddbe1, #0ec78f, #2bf3c0);
+	padding-bottom: 60px;
+}
+
+#services-nav {
+	color: #00221C;
+	margin-top: 60px;
+}
+
+.service-area {
+	background: linear-gradient(to left, #2bf3c0, #6ddbe1, #0ec78f, #2bf3c0);
+}
+
+.section-text {
+	margin-bottom: 60px;
+	color: teal;
+}
+
+.card-body {
+	border: 1px solid black;
+	background-color: #29A0B1;
+}
+
+.card-text {
+	font-family: "lato";
+	color: #212529;
+}
+
+.project-area {
+	color: rgb(1, 129, 129);
+	background-color: #212529;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.button-group {
+	text-align: center;
+	color: rgb(1, 129, 129);
+}
+
+.buttons {
+	color: black;
+}
+
+.btn-success {
+	background-color: rgb(1, 129, 129);
+}
+
+.project-title {
+	text-align: center;
+}
+
+.bot-info {
+	font-family: "Lato";
+}
+
+.project-area .button-group button {
+	border: none;
+	font: normal 500 16px/130px;
+	text-transform: uppercase;
+}
+
+.project-area .button-group button+button {
+	padding-bottom: 3px;
+}
+
+.project-area .grid .our-project>title h4 {
+	font: normal 700 25px/12px;
+}
+
+.bottom-border a {
+	color: black;
+}
+
+.title {
+	background-color: rgb(1, 129, 129);
+	border: 1px solid black;
+	color: #212529;
+	margin-bottom: 15px;
+}
+
+.contact {
+	background: linear-gradient(to left, #2bf3c0, #6ddbe1, #0ec78f, #2bf3c0);
+}
+
+
+
+.contact h2 {
+	text-align: center;
+}
+
+.contact p {
+	font-family: "lato";
+	text-align: center;
+}
+
+.email {
+	color: black;
+}
+
+.footer-area {
+	padding-bottom: 1px;
+	background-color: #212529;
+}
+
+
+
+/*Projects pages */
+.main_project {
+	background-color: #212529;
+}
+
+
+
+.video {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+
+.images{
+	display: flex;
+	justify-content: space-between;
+}
+
+.work-title {
+	background: linear-gradient(to left, #2bf3c0, #6ddbe1, #0ec78f, #2bf3c0);
+	margin-bottom: 60px;
+	text-align: center;
+	
+}
+
+.products_page_title {
+	text-align: center;
+	color: #29A0B1;
+	
+}
+
+ .project_page_design {
+	text-align: center;
+	margin-bottom: 60px;
+	color: #29A0B1;
+}
+
